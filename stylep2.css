@@ -14,7 +14,7 @@
     ;
 }
 
-li,  button {
+li,  .cta {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -76,7 +76,7 @@ header {
     color: rgb(255, 190, 92);
 }
 
-button {
+.cta {
     padding: 9px 25px;
     background-color: rgb(255, 190, 92);
     border: none;
@@ -86,7 +86,7 @@ button {
     margin-left: 20px;
 }
 
-button:hover {
+.cta:hover {
     background-color: rgb(201, 148, 69);
 }
 
