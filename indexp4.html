@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Klicka Här">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MammasPannkakor</title>
+    <link rel="stylesheet" href="stylep4.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.9/dist/css/themes/splide-default.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="home">
+            <a href="index.html"><img src="Resurser/MammaPannkakorLogo.webp" alt="logo" class="logo"></a>
+            <a href="index.html" class="" id="Name">Mammas Pannkakor</a>
+        </div>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="indexp2.html">Om oss</a></li>
+                <li><a href="indexp3.html">Recept</a></li>
+                <li><a href="indexp4.html">Recensioner</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="indexp5.html"><button>Kontakta Oss</button></a>
+    </header>
+
+    <div class="text">
+        Här kan du läsa recensioner från våra älskade kunder
+    </div>
+
+    <div class="splide">
+        <div class="splide__track">  
+            <ul class="splide__list">
+                <li class="splide__slide">
+                    <div class="recension1">
+                        <img class="img1" src="Resurser/Caesar Sallad.webp" alt="">
+                        <div class="recept1">
+                            <p class="head1">~ Arne Gunnarsson - Deb magiska salladen</p>
+                            <br>
+                            <p class="text1"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur odit doloremque eveniet quam aperiam reiciendis nihil necessitatibus minima inventore consequatur doloribus omnis ad odio nam excepturi id magni aut, ipsam fugiat illo illum optio mollitia? Quisquam repellendus odit dignissimos.</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="splide__slide">
+                    <div class="recension1">
+                        <img class="img1" src="Resurser/Burgare.webp" alt="">
+                        <div class="recept1">
+                            <p class="head1">~ Albin Johnsson - Kökets Special</p>
+                            <br>
+                            <p class="text1">Jag vill bara börja med att säga att denna fantastiska börgare är något som alla måste testa, DEN ÄR FANTASTISK! Lätt att tillaga med hjälp av Mammas Pannkakors fina recept. 5/5 kanon!</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="splide__slide">
+                    <div class="recension1">
+                        <img class="img1" src="Resurser/Spagetti.webp " alt="">
+                        <div class="recept1">
+                            <p class="head1">~ Niklas Olsson - Pernillas Kötfärsås</p>
+                            <br>
+                            <p class="text1"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur odit doloremque eveniet quam aperiam reiciendis nihil necessitatibus minima inventore consequatur doloribus omnis ad odio nam excepturi id magni aut, ipsam fugiat illo illum optio mollitia? Quisquam repellendus odit dignissimos.</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="splide__slide">
+                    <div class="recension1">
+                        <img class="img1" src="Resurser/Kykling.webp" alt="">
+                        <div class="recept1">
+                            <p class="head1">~ Figge Ahlberg - Mammas Hemilga Kyklinggryta</p>
+                            <br>
+                            <p class="text1"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur odit doloremque eveniet quam aperiam reiciendis nihil necessitatibus minima inventore consequatur doloribus omnis ad odio nam excepturi id magni aut, ipsam fugiat illo illum optio mollitia? Quisquam repellendus odit dignissimos.</p>
+                        </div>
+                    </div>
+                </li>
+                        
+                <li class="splide__slide">
+                    <div class="recension1">
+                        <img class="img1" src="Resurser/Kyckling rullar.webp" alt="">
+                        <div class="recept1">
+                            <p class="head1">~ Gunhild Person - Husets Rullar</p>
+                            <br>
+                            <p class="text1"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur odit doloremque eveniet quam aperiam reiciendis nihil necessitatibus minima inventore consequatur doloribus omnis ad odio nam excepturi id magni aut, ipsam fugiat illo illum optio mollitia? Quisquam repellendus odit dignissimos.</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/js/splide.min.js"></script>
+
+    <script>
+
+        var splide = new Splide( '.splide', {
+        type   : 'loop',
+        padding: '5rem',
+        autoWidth: boolean = false,
+        drag: boolean = false,
+        } );
+
+        splide.mount();
+
+
+        
+    </script>
+
+</body>
+</html>
